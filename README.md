@@ -26,6 +26,8 @@ Open `http://127.0.0.1:5188`. `npm run build` creates `dist/`, deployable as sta
 - **Synthetic safety lab:** try the accepted, one-sided, fake-buyer, old-version, wrong-digest, conflicting-delivery and expiry examples. These local examples are explicitly separate from chain state. They run the same verifier, and do not represent transactions, users or adoption.
 - **Write a synthetic handoff:** connect an injected Tiramisu test wallet, specify a different executor, create a root. Switch to that executor to claim delivery, then back to the buyer to accept. Payloads are fixed synthetic text only. Each write costs **test GLM gas**. No mainnet support or paid API.
 
+The real creation evidence was produced through the CLI and official SDK. The optional injected-wallet browser signing flow has not been exercised end to end in a real wallet; the verified public product path is independent read verification. This limitation does not apply to the recorded real creation transactions.
+
 ## Security model
 
 The root creator is the buyer. The readonly root binds an executor wallet. Other proposals and acceptances must come from that buyer; delivery claims must come from that executor. Neither a role string nor `$owner` grants identity. Readonly creation flags are required so payloads cannot change after publication.
