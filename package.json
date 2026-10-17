@@ -1,0 +1,19 @@
+{
+  "name": "agent3-handoff-lens",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "node --test test/*.test.mjs",
+    "probe": "node scripts/probe.mjs"
+  },
+  "dependencies": {
+    "@arkiv-network/sdk": "0.8.1",
+    "viem": "2.57.7"
+  },
+  "devDependencies": {
+    "vite": "7.3.7"
+  }
+}
