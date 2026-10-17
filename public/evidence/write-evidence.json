@@ -1,0 +1,2178 @@
+{
+  "startedAt": "2026-10-17T18:35:22.280Z",
+  "runId": "mvcqlc89",
+  "chain": 7738577,
+  "transactions": [
+    {
+      "kind": "test-gas-distribution",
+      "role": "executor",
+      "txHash": "0xab5dc04144a2581cd79ed7d2e01b7c6ec137ce2d4d6d8528f2619c9092c1264c",
+      "value": "100000000000000000"
+    },
+    {
+      "kind": "test-gas-distribution",
+      "role": "outsider",
+      "txHash": "0xbddb6195bb16e8af771433f3dd3d667eb9d25cc9d6ae7727d508b0e5413a0f63",
+      "value": "100000000000000000"
+    },
+    {
+      "label": "accepted-root",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0x94d2fa92ca4e31fc0af4a7075184cf8000034224ac07637578d9d8886e93d18b",
+      "entityKey": "0xbd9e7544f17f9955b330f196b981406e92de6f4f1e6c830fae139bfa9965cfd8",
+      "expiresAt": "1311255",
+      "blockNumber": "706455"
+    },
+    {
+      "label": "accepted-delivery",
+      "role": "executor",
+      "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+      "txHash": "0xbd06e7031dd2680c22fed241f048590137f91c5bbc08abdcca23776e6098b155",
+      "entityKey": "0xbd8ad0528e69fd81b89b90cb7cd90662c325992eca29dfa187fe63d64aa73a17",
+      "expiresAt": "1138459",
+      "blockNumber": "706459"
+    },
+    {
+      "label": "accepted-acceptance",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0x0764ea6d2558df7b04d71a8885c6c268717426a7ec9a38bbd1d40c00d90029c3",
+      "entityKey": "0xeedaf8c80fbf4dd3d0a9a15e79e7e07b386b0d4ae4beb50c5e4d86a830fc60c3",
+      "expiresAt": "1008863",
+      "blockNumber": "706463"
+    },
+    {
+      "label": "one-sided-root",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0xa08cb6013b1b4cf7894aeadb8790607520ddb4ad047f3575c431b2c7021ff5ce",
+      "entityKey": "0x3586663bdae77beb97854d2e7e7e75913e69ee8ae1486888c350fb11a338f547",
+      "expiresAt": "1311268",
+      "blockNumber": "706468"
+    },
+    {
+      "label": "one-sided-delivery",
+      "role": "executor",
+      "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+      "txHash": "0x0f7d4c6d380d045a5df5c30eff134e775b84e6596edbcc293fc84d58e2dc4fd7",
+      "entityKey": "0xb599755154e276e7b8006c3c42cea5da82c463a7b61f987560f88b6bee29bd7b",
+      "expiresAt": "1138471",
+      "blockNumber": "706471"
+    },
+    {
+      "label": "fake-buyer-root",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0x90d2b7fc51a2e2f74305b30e10c60a343d0ee874231f811b17d07becdd2cf701",
+      "entityKey": "0xbf9c6770f6175df39c2bb2c1b38fb6a94d403852193ea9a4c6b6922f9e70b95e",
+      "expiresAt": "1311276",
+      "blockNumber": "706476"
+    },
+    {
+      "label": "fake-buyer-delivery",
+      "role": "executor",
+      "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+      "txHash": "0x511cbfe4423841244e4e2b1b93b8daca13e8deabd0ca9c95746faf55076b8a46",
+      "entityKey": "0x5f9705e3aaaf8f9fdd8c4f9508cbdf77c4878e2288309620fac5da63b92ba5aa",
+      "expiresAt": "1138480",
+      "blockNumber": "706480"
+    },
+    {
+      "label": "fake-buyer-acceptance",
+      "role": "outsider",
+      "creator": "0x2a37Da6ec1e54B931210576E8Eb6Bd5AeF6F8845",
+      "txHash": "0xa91fc5b1689cc0377e0cf123795d86f8b6fba5f3ed1f3882aa678e48c81b1a98",
+      "entityKey": "0x88bcd9aebab3631728ce18d080d6697676b02a818eeaf523d041f288848efca9",
+      "expiresAt": "1008884",
+      "blockNumber": "706484"
+    },
+    {
+      "label": "fake-buyer-fake-executor",
+      "role": "outsider",
+      "creator": "0x2a37Da6ec1e54B931210576E8Eb6Bd5AeF6F8845",
+      "txHash": "0xbd83a2786ab9b036e332a452453b13800b2d39b7e33f1320a4d9e2cd78cf42c0",
+      "entityKey": "0xcf63245bc7eb603c682cf90560927b11cc65521d1912288a3c7ea35dfd1d8db1",
+      "expiresAt": "1138487",
+      "blockNumber": "706487"
+    },
+    {
+      "label": "old-version-root",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0xbccbf08a87f9f7ed90d8f4433902ea1ee59e416db61f444776615ca68efbc8f8",
+      "entityKey": "0x3e5baeab89855b558dad86af4036e831e10599a7131d99c9db89f0d26d9b5c21",
+      "expiresAt": "1311292",
+      "blockNumber": "706492"
+    },
+    {
+      "label": "old-version-delivery",
+      "role": "executor",
+      "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+      "txHash": "0xc75849d39b7442a8dc769001c126e585d470890e08eb7c3a73f89d54fae101d4",
+      "entityKey": "0x6936f97fa599e29d3125b82dd6b055b64685d58ba490a24081626b13e9a5a859",
+      "expiresAt": "1138496",
+      "blockNumber": "706496"
+    },
+    {
+      "label": "old-version-acceptance",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0x8638bc9f2af5921ac7d27843e1268035866e04d7ccb295e78093ebef56cefff6",
+      "entityKey": "0xf0e567fca5ddfb8f35cf4b7a13a93f42ad9ae6dd83a9ca7c960f8c291a161471",
+      "expiresAt": "1008899",
+      "blockNumber": "706499"
+    },
+    {
+      "label": "old-version-proposal-v2",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0x606291b73708b78b57a6cc9fe6e2a9c257d6b3ef8eea027f6cbd4c0332fdfe81",
+      "entityKey": "0xe1193b72b61db1844388e9f187a5bdaeb8447dac7d2495e6e54e4fae4623f9c9",
+      "expiresAt": "1311303",
+      "blockNumber": "706503"
+    },
+    {
+      "label": "old-version-delivery-v2",
+      "role": "executor",
+      "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+      "txHash": "0xe9300aa26d37e7c7f558f2a1eea113ba3f316069dcd83d3ef1e2417f7f3e171c",
+      "entityKey": "0xf9ea88c513dfa44ec2b56bbda99abaaad35f1d429e13f1a8add6f682303fd107",
+      "expiresAt": "1138507",
+      "blockNumber": "706507"
+    },
+    {
+      "label": "wrong-digest-root",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0x251b63bc39dc0757eb1628a8f73f267c0da918eb1f8e824ec11f7adf6fd21af1",
+      "entityKey": "0xfefa99b1eeb3a21425ab7b3266fdbd3d1dcbf55fa6adda7f5befa08ad3887ab6",
+      "expiresAt": "1311312",
+      "blockNumber": "706512"
+    },
+    {
+      "label": "wrong-digest-delivery",
+      "role": "executor",
+      "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+      "txHash": "0x2d34a02257af42ed7c6616ad15b88d375f17b46a9b6d97652ade806cf3e2475b",
+      "entityKey": "0x0d173496bd8a9d3b247bd16d09df20303847132a425265522df34532142e8042",
+      "expiresAt": "1138515",
+      "blockNumber": "706515"
+    },
+    {
+      "label": "wrong-digest-acceptance",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0xb9b99701756436a5958fc4c415ae6ed4098e6bdb7515756eab0a9b00c0635d3d",
+      "entityKey": "0x87158043c131758b476acbe82fde824783453165678ea30cf8f7b54834352aa1",
+      "expiresAt": "1008919",
+      "blockNumber": "706519"
+    },
+    {
+      "label": "conflict-root",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0xb3183015143806658fbbc2740e67a8bebf2739411860e667302fdd4754d80471",
+      "entityKey": "0xc23e625b9f20944552d277291da82d551920cc6356c762fac1e7ef841464c9c9",
+      "expiresAt": "1311324",
+      "blockNumber": "706524"
+    },
+    {
+      "label": "conflict-delivery",
+      "role": "executor",
+      "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+      "txHash": "0x91f318567dd7f1340af99104890d326fa5aa43004919482f9e198edfb357637b",
+      "entityKey": "0x4876632614a4d0ac28b73aa5ad5dd916803cba9f1740bf285eeb5e37e7d40c3b",
+      "expiresAt": "1138528",
+      "blockNumber": "706528"
+    },
+    {
+      "label": "conflict-acceptance",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0xbf25bbd9c5b83e4ccab52d647f5b153aba61a5e3bbb2d1b0a7c1361591592947",
+      "entityKey": "0x1dfced866d3689d80bdaf5c68808a0c6fd929126e22f27eaf9d87cd5da98d041",
+      "expiresAt": "1008932",
+      "blockNumber": "706532"
+    },
+    {
+      "label": "conflict-conflicting-delivery",
+      "role": "executor",
+      "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+      "txHash": "0xcf28679ce120cd7d6acb4bf253460d196c57dbe0046d9adcee7bdeab6ccb3b6a",
+      "entityKey": "0xf342b064f565d25e41704db5a2936887231e5e8a37f968a397481c9bfcde25a6",
+      "expiresAt": "1138536",
+      "blockNumber": "706536"
+    },
+    {
+      "label": "proposal-branch-root",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0x9f4ca865fe1784cef19daacac17fa03b07176458f0c196174135f32e135402e3",
+      "entityKey": "0x918cc44aed43f0ba230f3828326abc134574ac0f7a8f3d57d5320505b3be4985",
+      "expiresAt": "1311339",
+      "blockNumber": "706539"
+    },
+    {
+      "label": "proposal-branch-delivery",
+      "role": "executor",
+      "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+      "txHash": "0x0bbf8c99a613b0f884652787dd60e912ab357e567306c0fd68740fa6129eb762",
+      "entityKey": "0x90bae0fe93e59e9ec3e8045481e709058c5260a147815871ba78ddb5b0764c4a",
+      "expiresAt": "1138542",
+      "blockNumber": "706542"
+    },
+    {
+      "label": "proposal-branch-acceptance",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0x5cdd476b5ffc824655337f9c67913904fc0436151de9075f183060ad34512982",
+      "entityKey": "0x3df96a010fa4613934448eab0bddfe18bf29bd5db49042ca383034ad0632f4b2",
+      "expiresAt": "1008946",
+      "blockNumber": "706546"
+    },
+    {
+      "label": "proposal-branch-proposal-v2",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0xe6dfda8f677af1186635ef9b3153c53b2507062b351f7b5311e556c034fe30df",
+      "entityKey": "0x820ee5ad191e1ebac1d8a3ea448d6ee9920c09e547d01e319f223d1e246856ca",
+      "expiresAt": "1311350",
+      "blockNumber": "706550"
+    },
+    {
+      "label": "proposal-branch-branch-v2",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0x7212f1628844a155c24af3d7e8a016373f6bd74c9c268a8c32ff6dadfc556ec7",
+      "entityKey": "0x544772aaf633bef635df39cdeae76f70f08b50f248dbbf51c163e5dea68b4ead",
+      "expiresAt": "1311354",
+      "blockNumber": "706554"
+    },
+    {
+      "label": "expiry-root",
+      "role": "buyer",
+      "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+      "txHash": "0xece715083b0541941b48cf4ee8f02f35d1929ff3d500e24a9c2cd68d649e5196",
+      "entityKey": "0xc559a6ed4654002f2ac50de6a1c6f5d0d3fa63bfb89310b2ee21e8b1c22d10d7",
+      "expiresAt": "706566",
+      "blockNumber": "706562"
+    }
+  ],
+  "scenarios": [
+    {
+      "mode": "accepted",
+      "label": "accepted",
+      "rootKey": "0xbd9e7544f17f9955b330f196b981406e92de6f4f1e6c830fae139bfa9965cfd8",
+      "expected": "ACCEPTED",
+      "actual": "ACCEPTED",
+      "passed": true,
+      "observation": {
+        "records": [
+          {
+            "key": "0xeedaf8c80fbf4dd3d0a9a15e79e7e07b386b0d4ae4beb50c5e4d86a830fc60c3",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706463",
+            "expiresAt": "1008863",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "acceptance"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-accepted"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-accepted",
+              "version": 1,
+              "rootKey": "0xbd9e7544f17f9955b330f196b981406e92de6f4f1e6c830fae139bfa9965cfd8",
+              "proposalKey": "0xbd9e7544f17f9955b330f196b981406e92de6f4f1e6c830fae139bfa9965cfd8",
+              "kind": "acceptance",
+              "deliveryKey": "0xbd8ad0528e69fd81b89b90cb7cd90662c325992eca29dfa187fe63d64aa73a17",
+              "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c",
+              "role": "buyer"
+            }
+          },
+          {
+            "key": "0xbd8ad0528e69fd81b89b90cb7cd90662c325992eca29dfa187fe63d64aa73a17",
+            "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "owner": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "createdAt": "706459",
+            "expiresAt": "1138459",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "delivery"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-accepted"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-accepted",
+              "version": 1,
+              "rootKey": "0xbd9e7544f17f9955b330f196b981406e92de6f4f1e6c830fae139bfa9965cfd8",
+              "proposalKey": "0xbd9e7544f17f9955b330f196b981406e92de6f4f1e6c830fae139bfa9965cfd8",
+              "kind": "delivery",
+              "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c"
+            }
+          },
+          {
+            "key": "0xbd9e7544f17f9955b330f196b981406e92de6f4f1e6c830fae139bfa9965cfd8",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706455",
+            "expiresAt": "1311255",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-accepted"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-accepted",
+              "version": 1,
+              "rootKey": null,
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC test task: numbered test report."
+            }
+          }
+        ],
+        "pages": [
+          {
+            "block": "706465",
+            "count": 2,
+            "hasNext": true
+          },
+          {
+            "block": "706465",
+            "count": 1,
+            "hasNext": false
+          }
+        ],
+        "block": "706465",
+        "query": "app = str('agent3-handoff-lens-v1') AND task = str('demo-mvcqlc89-accepted') AND version >= i32(1)",
+        "root": {
+          "key": "0xbd9e7544f17f9955b330f196b981406e92de6f4f1e6c830fae139bfa9965cfd8",
+          "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "createdAt": "706455",
+          "expiresAt": "1311255",
+          "readonly": true,
+          "attributes": {
+            "app": {
+              "type": "str",
+              "value": "agent3-handoff-lens-v1"
+            },
+            "kind": {
+              "type": "str",
+              "value": "proposal"
+            },
+            "task": {
+              "type": "str",
+              "value": "demo-mvcqlc89-accepted"
+            },
+            "version": {
+              "type": "i32",
+              "value": 1
+            }
+          },
+          "payload": {
+            "kind": "proposal",
+            "task": "demo-mvcqlc89-accepted",
+            "version": 1,
+            "rootKey": null,
+            "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "summary": "SYNTHETIC test task: numbered test report."
+          }
+        },
+        "result": {
+          "buyer": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+          "task": "demo-mvcqlc89-accepted",
+          "version": 1,
+          "rejected": [],
+          "rootKey": "0xbd9e7544f17f9955b330f196b981406e92de6f4f1e6c830fae139bfa9965cfd8",
+          "observedBlock": "706465",
+          "proposal": {
+            "key": "0xbd9e7544f17f9955b330f196b981406e92de6f4f1e6c830fae139bfa9965cfd8",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706455",
+            "expiresAt": "1311255",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-accepted"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-accepted",
+              "version": 1,
+              "rootKey": null,
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC test task: numbered test report."
+            }
+          },
+          "deliveries": [
+            {
+              "key": "0xbd8ad0528e69fd81b89b90cb7cd90662c325992eca29dfa187fe63d64aa73a17",
+              "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "owner": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "createdAt": "706459",
+              "expiresAt": "1138459",
+              "readonly": true,
+              "attributes": {
+                "app": {
+                  "type": "str",
+                  "value": "agent3-handoff-lens-v1"
+                },
+                "kind": {
+                  "type": "str",
+                  "value": "delivery"
+                },
+                "task": {
+                  "type": "str",
+                  "value": "demo-mvcqlc89-accepted"
+                },
+                "version": {
+                  "type": "i32",
+                  "value": 1
+                }
+              },
+              "payload": {
+                "task": "demo-mvcqlc89-accepted",
+                "version": 1,
+                "rootKey": "0xbd9e7544f17f9955b330f196b981406e92de6f4f1e6c830fae139bfa9965cfd8",
+                "proposalKey": "0xbd9e7544f17f9955b330f196b981406e92de6f4f1e6c830fae139bfa9965cfd8",
+                "kind": "delivery",
+                "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c"
+              }
+            }
+          ],
+          "acceptances": [
+            {
+              "key": "0xeedaf8c80fbf4dd3d0a9a15e79e7e07b386b0d4ae4beb50c5e4d86a830fc60c3",
+              "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+              "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+              "createdAt": "706463",
+              "expiresAt": "1008863",
+              "readonly": true,
+              "attributes": {
+                "app": {
+                  "type": "str",
+                  "value": "agent3-handoff-lens-v1"
+                },
+                "kind": {
+                  "type": "str",
+                  "value": "acceptance"
+                },
+                "task": {
+                  "type": "str",
+                  "value": "demo-mvcqlc89-accepted"
+                },
+                "version": {
+                  "type": "i32",
+                  "value": 1
+                }
+              },
+              "payload": {
+                "task": "demo-mvcqlc89-accepted",
+                "version": 1,
+                "rootKey": "0xbd9e7544f17f9955b330f196b981406e92de6f4f1e6c830fae139bfa9965cfd8",
+                "proposalKey": "0xbd9e7544f17f9955b330f196b981406e92de6f4f1e6c830fae139bfa9965cfd8",
+                "kind": "acceptance",
+                "deliveryKey": "0xbd8ad0528e69fd81b89b90cb7cd90662c325992eca29dfa187fe63d64aa73a17",
+                "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c",
+                "role": "buyer"
+              }
+            }
+          ],
+          "state": "ACCEPTED",
+          "reason": "Authorized buyer accepted this exact current delivery. This is a statement, not a quality or payment proof."
+        }
+      }
+    },
+    {
+      "mode": "one-sided",
+      "label": "one-sided",
+      "rootKey": "0x3586663bdae77beb97854d2e7e7e75913e69ee8ae1486888c350fb11a338f547",
+      "expected": "AWAITING_ACCEPTANCE",
+      "actual": "AWAITING_ACCEPTANCE",
+      "passed": true,
+      "observation": {
+        "records": [
+          {
+            "key": "0xb599755154e276e7b8006c3c42cea5da82c463a7b61f987560f88b6bee29bd7b",
+            "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "owner": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "createdAt": "706471",
+            "expiresAt": "1138471",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "delivery"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-one-sided"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-one-sided",
+              "version": 1,
+              "rootKey": "0x3586663bdae77beb97854d2e7e7e75913e69ee8ae1486888c350fb11a338f547",
+              "proposalKey": "0x3586663bdae77beb97854d2e7e7e75913e69ee8ae1486888c350fb11a338f547",
+              "kind": "delivery",
+              "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c"
+            }
+          },
+          {
+            "key": "0x3586663bdae77beb97854d2e7e7e75913e69ee8ae1486888c350fb11a338f547",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706468",
+            "expiresAt": "1311268",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-one-sided"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-one-sided",
+              "version": 1,
+              "rootKey": null,
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC test task: numbered test report."
+            }
+          }
+        ],
+        "pages": [
+          {
+            "block": "706473",
+            "count": 2,
+            "hasNext": false
+          }
+        ],
+        "block": "706473",
+        "query": "app = str('agent3-handoff-lens-v1') AND task = str('demo-mvcqlc89-one-sided') AND version >= i32(1)",
+        "root": {
+          "key": "0x3586663bdae77beb97854d2e7e7e75913e69ee8ae1486888c350fb11a338f547",
+          "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "createdAt": "706468",
+          "expiresAt": "1311268",
+          "readonly": true,
+          "attributes": {
+            "app": {
+              "type": "str",
+              "value": "agent3-handoff-lens-v1"
+            },
+            "kind": {
+              "type": "str",
+              "value": "proposal"
+            },
+            "task": {
+              "type": "str",
+              "value": "demo-mvcqlc89-one-sided"
+            },
+            "version": {
+              "type": "i32",
+              "value": 1
+            }
+          },
+          "payload": {
+            "kind": "proposal",
+            "task": "demo-mvcqlc89-one-sided",
+            "version": 1,
+            "rootKey": null,
+            "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "summary": "SYNTHETIC test task: numbered test report."
+          }
+        },
+        "result": {
+          "buyer": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+          "task": "demo-mvcqlc89-one-sided",
+          "version": 1,
+          "rejected": [],
+          "rootKey": "0x3586663bdae77beb97854d2e7e7e75913e69ee8ae1486888c350fb11a338f547",
+          "observedBlock": "706473",
+          "proposal": {
+            "key": "0x3586663bdae77beb97854d2e7e7e75913e69ee8ae1486888c350fb11a338f547",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706468",
+            "expiresAt": "1311268",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-one-sided"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-one-sided",
+              "version": 1,
+              "rootKey": null,
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC test task: numbered test report."
+            }
+          },
+          "deliveries": [
+            {
+              "key": "0xb599755154e276e7b8006c3c42cea5da82c463a7b61f987560f88b6bee29bd7b",
+              "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "owner": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "createdAt": "706471",
+              "expiresAt": "1138471",
+              "readonly": true,
+              "attributes": {
+                "app": {
+                  "type": "str",
+                  "value": "agent3-handoff-lens-v1"
+                },
+                "kind": {
+                  "type": "str",
+                  "value": "delivery"
+                },
+                "task": {
+                  "type": "str",
+                  "value": "demo-mvcqlc89-one-sided"
+                },
+                "version": {
+                  "type": "i32",
+                  "value": 1
+                }
+              },
+              "payload": {
+                "task": "demo-mvcqlc89-one-sided",
+                "version": 1,
+                "rootKey": "0x3586663bdae77beb97854d2e7e7e75913e69ee8ae1486888c350fb11a338f547",
+                "proposalKey": "0x3586663bdae77beb97854d2e7e7e75913e69ee8ae1486888c350fb11a338f547",
+                "kind": "delivery",
+                "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c"
+              }
+            }
+          ],
+          "state": "AWAITING_ACCEPTANCE",
+          "reason": "Executor claimed delivery. Buyer has not accepted it."
+        }
+      }
+    },
+    {
+      "mode": "fake-buyer",
+      "label": "fake-buyer",
+      "rootKey": "0xbf9c6770f6175df39c2bb2c1b38fb6a94d403852193ea9a4c6b6922f9e70b95e",
+      "expected": "AWAITING_ACCEPTANCE",
+      "actual": "AWAITING_ACCEPTANCE",
+      "passed": true,
+      "observation": {
+        "records": [
+          {
+            "key": "0xcf63245bc7eb603c682cf90560927b11cc65521d1912288a3c7ea35dfd1d8db1",
+            "creator": "0x2a37Da6ec1e54B931210576E8Eb6Bd5AeF6F8845",
+            "owner": "0x2a37Da6ec1e54B931210576E8Eb6Bd5AeF6F8845",
+            "createdAt": "706487",
+            "expiresAt": "1138487",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "delivery"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-fake-buyer"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-fake-buyer",
+              "version": 1,
+              "rootKey": "0xbf9c6770f6175df39c2bb2c1b38fb6a94d403852193ea9a4c6b6922f9e70b95e",
+              "proposalKey": "0xbf9c6770f6175df39c2bb2c1b38fb6a94d403852193ea9a4c6b6922f9e70b95e",
+              "kind": "delivery",
+              "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c",
+              "role": "executor"
+            }
+          },
+          {
+            "key": "0x88bcd9aebab3631728ce18d080d6697676b02a818eeaf523d041f288848efca9",
+            "creator": "0x2a37Da6ec1e54B931210576E8Eb6Bd5AeF6F8845",
+            "owner": "0x2a37Da6ec1e54B931210576E8Eb6Bd5AeF6F8845",
+            "createdAt": "706484",
+            "expiresAt": "1008884",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "acceptance"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-fake-buyer"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-fake-buyer",
+              "version": 1,
+              "rootKey": "0xbf9c6770f6175df39c2bb2c1b38fb6a94d403852193ea9a4c6b6922f9e70b95e",
+              "proposalKey": "0xbf9c6770f6175df39c2bb2c1b38fb6a94d403852193ea9a4c6b6922f9e70b95e",
+              "kind": "acceptance",
+              "deliveryKey": "0x5f9705e3aaaf8f9fdd8c4f9508cbdf77c4878e2288309620fac5da63b92ba5aa",
+              "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c",
+              "role": "buyer"
+            }
+          },
+          {
+            "key": "0x5f9705e3aaaf8f9fdd8c4f9508cbdf77c4878e2288309620fac5da63b92ba5aa",
+            "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "owner": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "createdAt": "706480",
+            "expiresAt": "1138480",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "delivery"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-fake-buyer"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-fake-buyer",
+              "version": 1,
+              "rootKey": "0xbf9c6770f6175df39c2bb2c1b38fb6a94d403852193ea9a4c6b6922f9e70b95e",
+              "proposalKey": "0xbf9c6770f6175df39c2bb2c1b38fb6a94d403852193ea9a4c6b6922f9e70b95e",
+              "kind": "delivery",
+              "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c"
+            }
+          },
+          {
+            "key": "0xbf9c6770f6175df39c2bb2c1b38fb6a94d403852193ea9a4c6b6922f9e70b95e",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706476",
+            "expiresAt": "1311276",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-fake-buyer"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-fake-buyer",
+              "version": 1,
+              "rootKey": null,
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC test task: numbered test report."
+            }
+          }
+        ],
+        "pages": [
+          {
+            "block": "706489",
+            "count": 2,
+            "hasNext": true
+          },
+          {
+            "block": "706489",
+            "count": 2,
+            "hasNext": false
+          }
+        ],
+        "block": "706489",
+        "query": "app = str('agent3-handoff-lens-v1') AND task = str('demo-mvcqlc89-fake-buyer') AND version >= i32(1)",
+        "root": {
+          "key": "0xbf9c6770f6175df39c2bb2c1b38fb6a94d403852193ea9a4c6b6922f9e70b95e",
+          "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "createdAt": "706476",
+          "expiresAt": "1311276",
+          "readonly": true,
+          "attributes": {
+            "app": {
+              "type": "str",
+              "value": "agent3-handoff-lens-v1"
+            },
+            "kind": {
+              "type": "str",
+              "value": "proposal"
+            },
+            "task": {
+              "type": "str",
+              "value": "demo-mvcqlc89-fake-buyer"
+            },
+            "version": {
+              "type": "i32",
+              "value": 1
+            }
+          },
+          "payload": {
+            "kind": "proposal",
+            "task": "demo-mvcqlc89-fake-buyer",
+            "version": 1,
+            "rootKey": null,
+            "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "summary": "SYNTHETIC test task: numbered test report."
+          }
+        },
+        "result": {
+          "buyer": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+          "task": "demo-mvcqlc89-fake-buyer",
+          "version": 1,
+          "rejected": [
+            {
+              "key": "0xcf63245bc7eb603c682cf90560927b11cc65521d1912288a3c7ea35dfd1d8db1",
+              "reason": "creator is not authorized executor"
+            },
+            {
+              "key": "0x88bcd9aebab3631728ce18d080d6697676b02a818eeaf523d041f288848efca9",
+              "reason": "creator is not authorized buyer"
+            }
+          ],
+          "rootKey": "0xbf9c6770f6175df39c2bb2c1b38fb6a94d403852193ea9a4c6b6922f9e70b95e",
+          "observedBlock": "706489",
+          "proposal": {
+            "key": "0xbf9c6770f6175df39c2bb2c1b38fb6a94d403852193ea9a4c6b6922f9e70b95e",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706476",
+            "expiresAt": "1311276",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-fake-buyer"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-fake-buyer",
+              "version": 1,
+              "rootKey": null,
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC test task: numbered test report."
+            }
+          },
+          "deliveries": [
+            {
+              "key": "0x5f9705e3aaaf8f9fdd8c4f9508cbdf77c4878e2288309620fac5da63b92ba5aa",
+              "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "owner": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "createdAt": "706480",
+              "expiresAt": "1138480",
+              "readonly": true,
+              "attributes": {
+                "app": {
+                  "type": "str",
+                  "value": "agent3-handoff-lens-v1"
+                },
+                "kind": {
+                  "type": "str",
+                  "value": "delivery"
+                },
+                "task": {
+                  "type": "str",
+                  "value": "demo-mvcqlc89-fake-buyer"
+                },
+                "version": {
+                  "type": "i32",
+                  "value": 1
+                }
+              },
+              "payload": {
+                "task": "demo-mvcqlc89-fake-buyer",
+                "version": 1,
+                "rootKey": "0xbf9c6770f6175df39c2bb2c1b38fb6a94d403852193ea9a4c6b6922f9e70b95e",
+                "proposalKey": "0xbf9c6770f6175df39c2bb2c1b38fb6a94d403852193ea9a4c6b6922f9e70b95e",
+                "kind": "delivery",
+                "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c"
+              }
+            }
+          ],
+          "state": "AWAITING_ACCEPTANCE",
+          "reason": "Executor claimed delivery. Buyer has not accepted it."
+        }
+      }
+    },
+    {
+      "mode": "old-version",
+      "label": "old-version",
+      "rootKey": "0x3e5baeab89855b558dad86af4036e831e10599a7131d99c9db89f0d26d9b5c21",
+      "expected": "AWAITING_ACCEPTANCE",
+      "actual": "AWAITING_ACCEPTANCE",
+      "passed": true,
+      "observation": {
+        "records": [
+          {
+            "key": "0xf9ea88c513dfa44ec2b56bbda99abaaad35f1d429e13f1a8add6f682303fd107",
+            "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "owner": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "createdAt": "706507",
+            "expiresAt": "1138507",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "delivery"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-old-version"
+              },
+              "version": {
+                "type": "i32",
+                "value": 2
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-old-version",
+              "version": 2,
+              "rootKey": "0x3e5baeab89855b558dad86af4036e831e10599a7131d99c9db89f0d26d9b5c21",
+              "proposalKey": "0xe1193b72b61db1844388e9f187a5bdaeb8447dac7d2495e6e54e4fae4623f9c9",
+              "kind": "delivery",
+              "digest": "0xd6d92fb7996f8622da7f3b52c1c3b715e9458280326717a5a9699c79fa0c0e39"
+            }
+          },
+          {
+            "key": "0xe1193b72b61db1844388e9f187a5bdaeb8447dac7d2495e6e54e4fae4623f9c9",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706503",
+            "expiresAt": "1311303",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-old-version"
+              },
+              "version": {
+                "type": "i32",
+                "value": 2
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-old-version",
+              "version": 2,
+              "rootKey": "0x3e5baeab89855b558dad86af4036e831e10599a7131d99c9db89f0d26d9b5c21",
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC changed requirement."
+            }
+          },
+          {
+            "key": "0xf0e567fca5ddfb8f35cf4b7a13a93f42ad9ae6dd83a9ca7c960f8c291a161471",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706499",
+            "expiresAt": "1008899",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "acceptance"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-old-version"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-old-version",
+              "version": 1,
+              "rootKey": "0x3e5baeab89855b558dad86af4036e831e10599a7131d99c9db89f0d26d9b5c21",
+              "proposalKey": "0x3e5baeab89855b558dad86af4036e831e10599a7131d99c9db89f0d26d9b5c21",
+              "kind": "acceptance",
+              "deliveryKey": "0x6936f97fa599e29d3125b82dd6b055b64685d58ba490a24081626b13e9a5a859",
+              "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c",
+              "role": "buyer"
+            }
+          },
+          {
+            "key": "0x6936f97fa599e29d3125b82dd6b055b64685d58ba490a24081626b13e9a5a859",
+            "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "owner": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "createdAt": "706496",
+            "expiresAt": "1138496",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "delivery"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-old-version"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-old-version",
+              "version": 1,
+              "rootKey": "0x3e5baeab89855b558dad86af4036e831e10599a7131d99c9db89f0d26d9b5c21",
+              "proposalKey": "0x3e5baeab89855b558dad86af4036e831e10599a7131d99c9db89f0d26d9b5c21",
+              "kind": "delivery",
+              "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c"
+            }
+          },
+          {
+            "key": "0x3e5baeab89855b558dad86af4036e831e10599a7131d99c9db89f0d26d9b5c21",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706492",
+            "expiresAt": "1311292",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-old-version"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-old-version",
+              "version": 1,
+              "rootKey": null,
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC test task: numbered test report."
+            }
+          }
+        ],
+        "pages": [
+          {
+            "block": "706509",
+            "count": 2,
+            "hasNext": true
+          },
+          {
+            "block": "706509",
+            "count": 2,
+            "hasNext": true
+          },
+          {
+            "block": "706509",
+            "count": 1,
+            "hasNext": false
+          }
+        ],
+        "block": "706509",
+        "query": "app = str('agent3-handoff-lens-v1') AND task = str('demo-mvcqlc89-old-version') AND version >= i32(1)",
+        "root": {
+          "key": "0x3e5baeab89855b558dad86af4036e831e10599a7131d99c9db89f0d26d9b5c21",
+          "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "createdAt": "706492",
+          "expiresAt": "1311292",
+          "readonly": true,
+          "attributes": {
+            "app": {
+              "type": "str",
+              "value": "agent3-handoff-lens-v1"
+            },
+            "kind": {
+              "type": "str",
+              "value": "proposal"
+            },
+            "task": {
+              "type": "str",
+              "value": "demo-mvcqlc89-old-version"
+            },
+            "version": {
+              "type": "i32",
+              "value": 1
+            }
+          },
+          "payload": {
+            "kind": "proposal",
+            "task": "demo-mvcqlc89-old-version",
+            "version": 1,
+            "rootKey": null,
+            "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "summary": "SYNTHETIC test task: numbered test report."
+          }
+        },
+        "result": {
+          "buyer": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+          "task": "demo-mvcqlc89-old-version",
+          "version": 2,
+          "rejected": [
+            {
+              "key": "0x6936f97fa599e29d3125b82dd6b055b64685d58ba490a24081626b13e9a5a859",
+              "reason": "delivery references an older or different proposal"
+            },
+            {
+              "key": "0xf0e567fca5ddfb8f35cf4b7a13a93f42ad9ae6dd83a9ca7c960f8c291a161471",
+              "reason": "acceptance does not bind current proposal and exact delivery digest"
+            }
+          ],
+          "rootKey": "0x3e5baeab89855b558dad86af4036e831e10599a7131d99c9db89f0d26d9b5c21",
+          "observedBlock": "706509",
+          "proposal": {
+            "key": "0xe1193b72b61db1844388e9f187a5bdaeb8447dac7d2495e6e54e4fae4623f9c9",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706503",
+            "expiresAt": "1311303",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-old-version"
+              },
+              "version": {
+                "type": "i32",
+                "value": 2
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-old-version",
+              "version": 2,
+              "rootKey": "0x3e5baeab89855b558dad86af4036e831e10599a7131d99c9db89f0d26d9b5c21",
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC changed requirement."
+            }
+          },
+          "deliveries": [
+            {
+              "key": "0xf9ea88c513dfa44ec2b56bbda99abaaad35f1d429e13f1a8add6f682303fd107",
+              "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "owner": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "createdAt": "706507",
+              "expiresAt": "1138507",
+              "readonly": true,
+              "attributes": {
+                "app": {
+                  "type": "str",
+                  "value": "agent3-handoff-lens-v1"
+                },
+                "kind": {
+                  "type": "str",
+                  "value": "delivery"
+                },
+                "task": {
+                  "type": "str",
+                  "value": "demo-mvcqlc89-old-version"
+                },
+                "version": {
+                  "type": "i32",
+                  "value": 2
+                }
+              },
+              "payload": {
+                "task": "demo-mvcqlc89-old-version",
+                "version": 2,
+                "rootKey": "0x3e5baeab89855b558dad86af4036e831e10599a7131d99c9db89f0d26d9b5c21",
+                "proposalKey": "0xe1193b72b61db1844388e9f187a5bdaeb8447dac7d2495e6e54e4fae4623f9c9",
+                "kind": "delivery",
+                "digest": "0xd6d92fb7996f8622da7f3b52c1c3b715e9458280326717a5a9699c79fa0c0e39"
+              }
+            }
+          ],
+          "state": "AWAITING_ACCEPTANCE",
+          "reason": "Executor claimed delivery. Buyer has not accepted it."
+        }
+      }
+    },
+    {
+      "mode": "wrong-digest",
+      "label": "wrong-digest",
+      "rootKey": "0xfefa99b1eeb3a21425ab7b3266fdbd3d1dcbf55fa6adda7f5befa08ad3887ab6",
+      "expected": "AWAITING_ACCEPTANCE",
+      "actual": "AWAITING_ACCEPTANCE",
+      "passed": true,
+      "observation": {
+        "records": [
+          {
+            "key": "0x87158043c131758b476acbe82fde824783453165678ea30cf8f7b54834352aa1",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706519",
+            "expiresAt": "1008919",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "acceptance"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-wrong-digest"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-wrong-digest",
+              "version": 1,
+              "rootKey": "0xfefa99b1eeb3a21425ab7b3266fdbd3d1dcbf55fa6adda7f5befa08ad3887ab6",
+              "proposalKey": "0xfefa99b1eeb3a21425ab7b3266fdbd3d1dcbf55fa6adda7f5befa08ad3887ab6",
+              "kind": "acceptance",
+              "deliveryKey": "0x0d173496bd8a9d3b247bd16d09df20303847132a425265522df34532142e8042",
+              "digest": "0xa533fc093708a99f7c99fbda6c7c47dabf0dbd5f8cae7369c641463e6448fd35",
+              "role": "buyer"
+            }
+          },
+          {
+            "key": "0x0d173496bd8a9d3b247bd16d09df20303847132a425265522df34532142e8042",
+            "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "owner": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "createdAt": "706515",
+            "expiresAt": "1138515",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "delivery"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-wrong-digest"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-wrong-digest",
+              "version": 1,
+              "rootKey": "0xfefa99b1eeb3a21425ab7b3266fdbd3d1dcbf55fa6adda7f5befa08ad3887ab6",
+              "proposalKey": "0xfefa99b1eeb3a21425ab7b3266fdbd3d1dcbf55fa6adda7f5befa08ad3887ab6",
+              "kind": "delivery",
+              "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c"
+            }
+          },
+          {
+            "key": "0xfefa99b1eeb3a21425ab7b3266fdbd3d1dcbf55fa6adda7f5befa08ad3887ab6",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706512",
+            "expiresAt": "1311312",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-wrong-digest"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-wrong-digest",
+              "version": 1,
+              "rootKey": null,
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC test task: numbered test report."
+            }
+          }
+        ],
+        "pages": [
+          {
+            "block": "706521",
+            "count": 2,
+            "hasNext": true
+          },
+          {
+            "block": "706521",
+            "count": 1,
+            "hasNext": false
+          }
+        ],
+        "block": "706521",
+        "query": "app = str('agent3-handoff-lens-v1') AND task = str('demo-mvcqlc89-wrong-digest') AND version >= i32(1)",
+        "root": {
+          "key": "0xfefa99b1eeb3a21425ab7b3266fdbd3d1dcbf55fa6adda7f5befa08ad3887ab6",
+          "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "createdAt": "706512",
+          "expiresAt": "1311312",
+          "readonly": true,
+          "attributes": {
+            "app": {
+              "type": "str",
+              "value": "agent3-handoff-lens-v1"
+            },
+            "kind": {
+              "type": "str",
+              "value": "proposal"
+            },
+            "task": {
+              "type": "str",
+              "value": "demo-mvcqlc89-wrong-digest"
+            },
+            "version": {
+              "type": "i32",
+              "value": 1
+            }
+          },
+          "payload": {
+            "kind": "proposal",
+            "task": "demo-mvcqlc89-wrong-digest",
+            "version": 1,
+            "rootKey": null,
+            "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "summary": "SYNTHETIC test task: numbered test report."
+          }
+        },
+        "result": {
+          "buyer": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+          "task": "demo-mvcqlc89-wrong-digest",
+          "version": 1,
+          "rejected": [
+            {
+              "key": "0x87158043c131758b476acbe82fde824783453165678ea30cf8f7b54834352aa1",
+              "reason": "acceptance does not bind current proposal and exact delivery digest"
+            }
+          ],
+          "rootKey": "0xfefa99b1eeb3a21425ab7b3266fdbd3d1dcbf55fa6adda7f5befa08ad3887ab6",
+          "observedBlock": "706521",
+          "proposal": {
+            "key": "0xfefa99b1eeb3a21425ab7b3266fdbd3d1dcbf55fa6adda7f5befa08ad3887ab6",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706512",
+            "expiresAt": "1311312",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-wrong-digest"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-wrong-digest",
+              "version": 1,
+              "rootKey": null,
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC test task: numbered test report."
+            }
+          },
+          "deliveries": [
+            {
+              "key": "0x0d173496bd8a9d3b247bd16d09df20303847132a425265522df34532142e8042",
+              "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "owner": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "createdAt": "706515",
+              "expiresAt": "1138515",
+              "readonly": true,
+              "attributes": {
+                "app": {
+                  "type": "str",
+                  "value": "agent3-handoff-lens-v1"
+                },
+                "kind": {
+                  "type": "str",
+                  "value": "delivery"
+                },
+                "task": {
+                  "type": "str",
+                  "value": "demo-mvcqlc89-wrong-digest"
+                },
+                "version": {
+                  "type": "i32",
+                  "value": 1
+                }
+              },
+              "payload": {
+                "task": "demo-mvcqlc89-wrong-digest",
+                "version": 1,
+                "rootKey": "0xfefa99b1eeb3a21425ab7b3266fdbd3d1dcbf55fa6adda7f5befa08ad3887ab6",
+                "proposalKey": "0xfefa99b1eeb3a21425ab7b3266fdbd3d1dcbf55fa6adda7f5befa08ad3887ab6",
+                "kind": "delivery",
+                "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c"
+              }
+            }
+          ],
+          "state": "AWAITING_ACCEPTANCE",
+          "reason": "Executor claimed delivery. Buyer has not accepted it."
+        }
+      }
+    },
+    {
+      "mode": "conflict",
+      "label": "conflict",
+      "rootKey": "0xc23e625b9f20944552d277291da82d551920cc6356c762fac1e7ef841464c9c9",
+      "expected": "CONFLICT",
+      "actual": "CONFLICT",
+      "passed": true,
+      "observation": {
+        "records": [
+          {
+            "key": "0xf342b064f565d25e41704db5a2936887231e5e8a37f968a397481c9bfcde25a6",
+            "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "owner": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "createdAt": "706536",
+            "expiresAt": "1138536",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "delivery"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-conflict"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-conflict",
+              "version": 1,
+              "rootKey": "0xc23e625b9f20944552d277291da82d551920cc6356c762fac1e7ef841464c9c9",
+              "proposalKey": "0xc23e625b9f20944552d277291da82d551920cc6356c762fac1e7ef841464c9c9",
+              "kind": "delivery",
+              "digest": "0xae8eef07f3efbc867572f2abe3ae3da32fc5a57e49e1003b640b7559c23023bc"
+            }
+          },
+          {
+            "key": "0x1dfced866d3689d80bdaf5c68808a0c6fd929126e22f27eaf9d87cd5da98d041",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706532",
+            "expiresAt": "1008932",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "acceptance"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-conflict"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-conflict",
+              "version": 1,
+              "rootKey": "0xc23e625b9f20944552d277291da82d551920cc6356c762fac1e7ef841464c9c9",
+              "proposalKey": "0xc23e625b9f20944552d277291da82d551920cc6356c762fac1e7ef841464c9c9",
+              "kind": "acceptance",
+              "deliveryKey": "0x4876632614a4d0ac28b73aa5ad5dd916803cba9f1740bf285eeb5e37e7d40c3b",
+              "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c",
+              "role": "buyer"
+            }
+          },
+          {
+            "key": "0x4876632614a4d0ac28b73aa5ad5dd916803cba9f1740bf285eeb5e37e7d40c3b",
+            "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "owner": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "createdAt": "706528",
+            "expiresAt": "1138528",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "delivery"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-conflict"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-conflict",
+              "version": 1,
+              "rootKey": "0xc23e625b9f20944552d277291da82d551920cc6356c762fac1e7ef841464c9c9",
+              "proposalKey": "0xc23e625b9f20944552d277291da82d551920cc6356c762fac1e7ef841464c9c9",
+              "kind": "delivery",
+              "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c"
+            }
+          },
+          {
+            "key": "0xc23e625b9f20944552d277291da82d551920cc6356c762fac1e7ef841464c9c9",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706524",
+            "expiresAt": "1311324",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-conflict"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-conflict",
+              "version": 1,
+              "rootKey": null,
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC test task: numbered test report."
+            }
+          }
+        ],
+        "pages": [
+          {
+            "block": "706536",
+            "count": 2,
+            "hasNext": true
+          },
+          {
+            "block": "706536",
+            "count": 2,
+            "hasNext": false
+          }
+        ],
+        "block": "706536",
+        "query": "app = str('agent3-handoff-lens-v1') AND task = str('demo-mvcqlc89-conflict') AND version >= i32(1)",
+        "root": {
+          "key": "0xc23e625b9f20944552d277291da82d551920cc6356c762fac1e7ef841464c9c9",
+          "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "createdAt": "706524",
+          "expiresAt": "1311324",
+          "readonly": true,
+          "attributes": {
+            "app": {
+              "type": "str",
+              "value": "agent3-handoff-lens-v1"
+            },
+            "kind": {
+              "type": "str",
+              "value": "proposal"
+            },
+            "task": {
+              "type": "str",
+              "value": "demo-mvcqlc89-conflict"
+            },
+            "version": {
+              "type": "i32",
+              "value": 1
+            }
+          },
+          "payload": {
+            "kind": "proposal",
+            "task": "demo-mvcqlc89-conflict",
+            "version": 1,
+            "rootKey": null,
+            "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "summary": "SYNTHETIC test task: numbered test report."
+          }
+        },
+        "result": {
+          "buyer": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+          "task": "demo-mvcqlc89-conflict",
+          "version": 1,
+          "rejected": [],
+          "rootKey": "0xc23e625b9f20944552d277291da82d551920cc6356c762fac1e7ef841464c9c9",
+          "observedBlock": "706536",
+          "proposal": {
+            "key": "0xc23e625b9f20944552d277291da82d551920cc6356c762fac1e7ef841464c9c9",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706524",
+            "expiresAt": "1311324",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-conflict"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-conflict",
+              "version": 1,
+              "rootKey": null,
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC test task: numbered test report."
+            }
+          },
+          "state": "CONFLICT",
+          "reason": "Executor published conflicting delivery digests. No last-write-wins."
+        }
+      }
+    },
+    {
+      "mode": "proposal-branch",
+      "label": "proposal-branch",
+      "rootKey": "0x918cc44aed43f0ba230f3828326abc134574ac0f7a8f3d57d5320505b3be4985",
+      "expected": "CONFLICT",
+      "actual": "CONFLICT",
+      "passed": true,
+      "observation": {
+        "records": [
+          {
+            "key": "0x544772aaf633bef635df39cdeae76f70f08b50f248dbbf51c163e5dea68b4ead",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706554",
+            "expiresAt": "1311354",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-proposal-branch"
+              },
+              "version": {
+                "type": "i32",
+                "value": 2
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-proposal-branch",
+              "version": 2,
+              "rootKey": "0x918cc44aed43f0ba230f3828326abc134574ac0f7a8f3d57d5320505b3be4985",
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC competing requirement."
+            }
+          },
+          {
+            "key": "0x820ee5ad191e1ebac1d8a3ea448d6ee9920c09e547d01e319f223d1e246856ca",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706550",
+            "expiresAt": "1311350",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-proposal-branch"
+              },
+              "version": {
+                "type": "i32",
+                "value": 2
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-proposal-branch",
+              "version": 2,
+              "rootKey": "0x918cc44aed43f0ba230f3828326abc134574ac0f7a8f3d57d5320505b3be4985",
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC changed requirement."
+            }
+          },
+          {
+            "key": "0x3df96a010fa4613934448eab0bddfe18bf29bd5db49042ca383034ad0632f4b2",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706546",
+            "expiresAt": "1008946",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "acceptance"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-proposal-branch"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-proposal-branch",
+              "version": 1,
+              "rootKey": "0x918cc44aed43f0ba230f3828326abc134574ac0f7a8f3d57d5320505b3be4985",
+              "proposalKey": "0x918cc44aed43f0ba230f3828326abc134574ac0f7a8f3d57d5320505b3be4985",
+              "kind": "acceptance",
+              "deliveryKey": "0x90bae0fe93e59e9ec3e8045481e709058c5260a147815871ba78ddb5b0764c4a",
+              "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c",
+              "role": "buyer"
+            }
+          },
+          {
+            "key": "0x90bae0fe93e59e9ec3e8045481e709058c5260a147815871ba78ddb5b0764c4a",
+            "creator": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "owner": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "createdAt": "706542",
+            "expiresAt": "1138542",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "delivery"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-proposal-branch"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "task": "demo-mvcqlc89-proposal-branch",
+              "version": 1,
+              "rootKey": "0x918cc44aed43f0ba230f3828326abc134574ac0f7a8f3d57d5320505b3be4985",
+              "proposalKey": "0x918cc44aed43f0ba230f3828326abc134574ac0f7a8f3d57d5320505b3be4985",
+              "kind": "delivery",
+              "digest": "0xe804d1a22c8cbfa464f9ceb4dcb3ec10e65fd06026fc9b33eecbc577fc337a3c"
+            }
+          },
+          {
+            "key": "0x918cc44aed43f0ba230f3828326abc134574ac0f7a8f3d57d5320505b3be4985",
+            "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+            "createdAt": "706539",
+            "expiresAt": "1311339",
+            "readonly": true,
+            "attributes": {
+              "app": {
+                "type": "str",
+                "value": "agent3-handoff-lens-v1"
+              },
+              "kind": {
+                "type": "str",
+                "value": "proposal"
+              },
+              "task": {
+                "type": "str",
+                "value": "demo-mvcqlc89-proposal-branch"
+              },
+              "version": {
+                "type": "i32",
+                "value": 1
+              }
+            },
+            "payload": {
+              "kind": "proposal",
+              "task": "demo-mvcqlc89-proposal-branch",
+              "version": 1,
+              "rootKey": null,
+              "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+              "summary": "SYNTHETIC test task: numbered test report."
+            }
+          }
+        ],
+        "pages": [
+          {
+            "block": "706556",
+            "count": 2,
+            "hasNext": true
+          },
+          {
+            "block": "706556",
+            "count": 2,
+            "hasNext": true
+          },
+          {
+            "block": "706556",
+            "count": 1,
+            "hasNext": false
+          }
+        ],
+        "block": "706556",
+        "query": "app = str('agent3-handoff-lens-v1') AND task = str('demo-mvcqlc89-proposal-branch') AND version >= i32(1)",
+        "root": {
+          "key": "0x918cc44aed43f0ba230f3828326abc134574ac0f7a8f3d57d5320505b3be4985",
+          "creator": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "owner": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "createdAt": "706539",
+          "expiresAt": "1311339",
+          "readonly": true,
+          "attributes": {
+            "app": {
+              "type": "str",
+              "value": "agent3-handoff-lens-v1"
+            },
+            "kind": {
+              "type": "str",
+              "value": "proposal"
+            },
+            "task": {
+              "type": "str",
+              "value": "demo-mvcqlc89-proposal-branch"
+            },
+            "version": {
+              "type": "i32",
+              "value": 1
+            }
+          },
+          "payload": {
+            "kind": "proposal",
+            "task": "demo-mvcqlc89-proposal-branch",
+            "version": 1,
+            "rootKey": null,
+            "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+            "summary": "SYNTHETIC test task: numbered test report."
+          }
+        },
+        "result": {
+          "buyer": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+          "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+          "task": "demo-mvcqlc89-proposal-branch",
+          "version": 2,
+          "rejected": [],
+          "rootKey": "0x918cc44aed43f0ba230f3828326abc134574ac0f7a8f3d57d5320505b3be4985",
+          "observedBlock": "706556",
+          "state": "CONFLICT",
+          "reason": "Buyer published competing proposals at one version. Human resolution required."
+        }
+      }
+    }
+  ],
+  "status": "REAL_TESTNET_ACCEPTANCE_COMPLETE",
+  "creatorQuery": {
+    "query": "app = str('agent3-handoff-lens-v1') AND $creator = addr(0x99d4cA950cf487a4221b94c32BD34Af50fA7759d)",
+    "count": 15,
+    "pages": [
+      {
+        "block": "706556",
+        "count": 2,
+        "hasNext": true
+      },
+      {
+        "block": "706556",
+        "count": 2,
+        "hasNext": true
+      },
+      {
+        "block": "706556",
+        "count": 2,
+        "hasNext": true
+      },
+      {
+        "block": "706556",
+        "count": 2,
+        "hasNext": true
+      },
+      {
+        "block": "706556",
+        "count": 2,
+        "hasNext": true
+      },
+      {
+        "block": "706556",
+        "count": 2,
+        "hasNext": true
+      },
+      {
+        "block": "706556",
+        "count": 2,
+        "hasNext": true
+      },
+      {
+        "block": "706556",
+        "count": 1,
+        "hasNext": false
+      }
+    ],
+    "passed": true
+  },
+  "readonlyNegative": {
+    "observedAt": "2026-10-17T18:49:28.691Z",
+    "name": "EntityMutationError",
+    "message": "Transaction failed: entity 0xbd9e7544…65cfd8 was created readonly, so its contents can never change. Its expiry can still be extended, and it can be transferred or deleted",
+    "txHash": null,
+    "scope": "pre-broadcast RPC rejection; no mined revert claimed",
+    "nonceBefore": 18,
+    "nonceAfter": 18,
+    "payloadUnchanged": true,
+    "passed": true
+  },
+  "expiry": {
+    "key": "0xc559a6ed4654002f2ac50de6a1c6f5d0d3fa63bfb89310b2ee21e8b1c22d10d7",
+    "expiresAt": "706566",
+    "beforeBlock": "706564",
+    "after": {
+      "block": "706566",
+      "absent": true,
+      "error": "No live entity with key 0xc559a6ed4654002f2ac50de6a1c6f5d0d3fa63bfb89310b2ee21e8b1c22d10d7. It was never created, or it has been deleted or has expired."
+    }
+  },
+  "finishedAt": "2026-10-17T18:48:11.190Z"
+}

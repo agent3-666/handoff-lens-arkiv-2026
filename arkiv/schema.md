@@ -1,6 +1,6 @@
 # Handoff Lens data contract v1
 
-SDK `@arkiv-network/sdk` **0.8.1**. Network **Tiramisu 7738577**. Primary and only business data layer: Arkiv. The app is static and directly queries the public RPC. The optional discovery manifest contains entity keys, not authoritative business state.
+SDK `@arkiv-network/sdk` **0.8.1**. Network **Tiramisu 7738577**. Primary and only business data layer: Arkiv. The app is static and directly queries the public RPC by default. An optional read-only key-protected gateway is prepared for rate-limit handling but not deployed. The optional discovery manifest contains entity keys, not authoritative business state.
 
 ## Trust and data types
 
@@ -42,7 +42,8 @@ const root = await client.select()
 // task is decoded from the root and schema-checked.
 let page = await client.select()
   .where(eq('app', APP), eq('task', task), gte('version', i32(1)))
-  .atBlock(block).limit(2).fetch();
+  .atBlock(block).limit(50).fetch();
+// Browser default: 50 records/page. Optional audit mode uses 2.
 // Walk every page via page.next(), with a 50-page cap and same-block assertions.
 // Any page failure or cap leaves the result unverifiable. Never decide from partial pages.
 ```
@@ -53,6 +54,8 @@ Creator-filter probe (not substituted for the full task query, so the UI can exp
 client.select().where(eq('app', APP))
   .createdBy(buyerAddress).atBlock(block).limit(2)
 ```
+
+The discovery manifest may provide an untrusted task name to avoid a separate root lookup. In that path, the root must still be returned inside the exact same complete live task query; a wrong hint fails closed. No status or authority is read from the manifest.
 
 Every query field is selected because the verifier uses keys, creator, creation height, expiry height, creation flags, attributes and JSON payload. The app exposes the exact query, page counts, snapshot block and downloadable observation.
 

@@ -1,0 +1,61 @@
+{
+  "chain": 7738577,
+  "app": "agent3-handoff-lens-v1",
+  "wallets": {
+    "buyer": "0x99d4cA950cf487a4221b94c32BD34Af50fA7759d",
+    "executor": "0x34a653ff532A728134EB697d70a2f2D04a167A20",
+    "outsider": "0x2a37Da6ec1e54B931210576E8Eb6Bd5AeF6F8845"
+  },
+  "scenarios": [
+    {
+      "mode": "accepted",
+      "label": "accepted",
+      "rootKey": "0xbd9e7544f17f9955b330f196b981406e92de6f4f1e6c830fae139bfa9965cfd8",
+      "expected": "ACCEPTED",
+      "task": "demo-mvcqlc89-accepted"
+    },
+    {
+      "mode": "one-sided",
+      "label": "one-sided",
+      "rootKey": "0x3586663bdae77beb97854d2e7e7e75913e69ee8ae1486888c350fb11a338f547",
+      "expected": "AWAITING_ACCEPTANCE",
+      "task": "demo-mvcqlc89-one-sided"
+    },
+    {
+      "mode": "fake-buyer",
+      "label": "fake-buyer",
+      "rootKey": "0xbf9c6770f6175df39c2bb2c1b38fb6a94d403852193ea9a4c6b6922f9e70b95e",
+      "expected": "AWAITING_ACCEPTANCE",
+      "task": "demo-mvcqlc89-fake-buyer"
+    },
+    {
+      "mode": "old-version",
+      "label": "old-version",
+      "rootKey": "0x3e5baeab89855b558dad86af4036e831e10599a7131d99c9db89f0d26d9b5c21",
+      "expected": "AWAITING_ACCEPTANCE",
+      "task": "demo-mvcqlc89-old-version"
+    },
+    {
+      "mode": "wrong-digest",
+      "label": "wrong-digest",
+      "rootKey": "0xfefa99b1eeb3a21425ab7b3266fdbd3d1dcbf55fa6adda7f5befa08ad3887ab6",
+      "expected": "AWAITING_ACCEPTANCE",
+      "task": "demo-mvcqlc89-wrong-digest"
+    },
+    {
+      "mode": "conflict",
+      "label": "conflict",
+      "rootKey": "0xc23e625b9f20944552d277291da82d551920cc6356c762fac1e7ef841464c9c9",
+      "expected": "CONFLICT",
+      "task": "demo-mvcqlc89-conflict"
+    },
+    {
+      "mode": "proposal-branch",
+      "label": "proposal-branch",
+      "rootKey": "0x918cc44aed43f0ba230f3828326abc134574ac0f7a8f3d57d5320505b3be4985",
+      "expected": "CONFLICT",
+      "task": "demo-mvcqlc89-proposal-branch"
+    }
+  ],
+  "evidence": "./write-evidence.json"
+}

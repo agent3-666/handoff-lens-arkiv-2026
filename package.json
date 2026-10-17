@@ -5,15 +5,20 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "vite build",
+    "build": "npm run lint && vite build",
     "test": "node --test test/*.test.mjs",
-    "probe": "node scripts/probe.mjs"
+    "probe": "node scripts/probe.mjs",
+    "lint": "eslint src/*.mjs"
   },
   "dependencies": {
     "@arkiv-network/sdk": "0.8.1",
     "viem": "2.57.7"
   },
   "devDependencies": {
+    "eslint": "10.13.0",
     "vite": "7.3.7"
+  },
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
   }
 }
