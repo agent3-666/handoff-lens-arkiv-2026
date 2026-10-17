@@ -2,7 +2,7 @@
 
 The direct browser path encountered HTTP 429 `ANON_COST_LIMITED` during real acceptance. Reducing browser request count is implemented, but the same browser quota still rejected a single-page query. Official access-key guidance says a key raises RPC limits and must stay out of browser code: https://docs.arkiv.network/start-here/access-keys/
 
-`gateway.mjs` is a prepared, **not deployed** alternative transport. It forwards only bounded Handoff Lens reads to the official Tiramisu RPC. It is not a business database and does not make handoff decisions. Direct independent queries remain available through `scripts/reproduce.mjs` and the public-RPC mode.
+`gateway.mjs` is a locally verified, **not publicly deployed** alternative transport. It forwards only bounded Handoff Lens reads to the official Tiramisu RPC. It is not a business database and does not make handoff decisions. Direct independent queries remain available through `scripts/reproduce.mjs` and the public-RPC mode.
 
 - Secret is read from server-only `ARKIV_RPC_KEY`; never a Vite variable, URL, repository file or browser bundle.
 - Upstream is fixed to the official Tiramisu URL and the key is sent in `X-API-KEY`.
@@ -11,6 +11,6 @@ The direct browser path encountered HTTP 429 `ANON_COST_LIMITED` during real acc
 - Query page size is bounded to 50. Bodies are capped at 16 KiB. Cursors are bounded. Unknown or unscoped queries are refused.
 - No keys, request bodies or IP logs. Upstream failures stay failures; no fixture or stored-record fallback.
 
-Local configuration uses the environment or an approved server secret manager. A bind address of 127.0.0.1 is the default. Public deployment requires a separate HTTPS reverse proxy or serverless adaptation and verified CORS, quota and lifecycle configuration. No public service or secret has been created by this preparation.
+Local configuration uses the environment or an approved server secret manager. A bind address of 127.0.0.1 is the default. Public deployment requires a separate HTTPS reverse proxy or serverless adaptation and verified CORS, quota and lifecycle configuration. An explicitly authorized Tiramisu project key is stored outside this repository; no public gateway has been deployed.
 
-`npm test` covers allowed requests, blocked transaction methods, blocked batch/unscoped/overlarge queries, denied browser origins, actual localhost HTTP forwarding and explicit gateway quota failure. It uses a mock upstream, so it does not certify a real keyed Arkiv connection.
+`npm test` covers allowed requests, actual SDK metadata serialization, blocked transaction methods, blocked batch/unscoped/overlarge queries, denied browser origins, actual localhost HTTP forwarding and explicit gateway quota failure. Those tests use a mock upstream. A separate real-browser run through the local keyed gateway completed all seven chain scenarios at Tiramisu blocks 707517–707535 on October 18, 2026 (Beijing time). That run does not certify public availability.

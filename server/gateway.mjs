@@ -14,7 +14,7 @@ export function validateRead(body) {
   )
     return false;
   if (["eth_chainId", "eth_blockNumber"].includes(body.method))
-    return Array.isArray(body.params) && body.params.length === 0;
+    return body.params === undefined || (Array.isArray(body.params) && body.params.length === 0);
   if (
     body.method !== "arkiv_query" ||
     !Array.isArray(body.params) ||

@@ -1,0 +1,41 @@
+{
+  "observedAt": "2026-10-17T19:20:33.261Z",
+  "transport": "localhost read-only key gateway; real official Tiramisu upstream; key absent from browser",
+  "checks": [
+    {
+      "case": "accepted",
+      "result": "Buyer accepted this delivery",
+      "block": 707517
+    },
+    {
+      "case": "one-sided",
+      "result": "Delivery claimed. Not yet accepted.",
+      "block": 707525
+    },
+    {
+      "case": "fake-buyer",
+      "result": "Delivery claimed. Not yet accepted.",
+      "block": 707535
+    },
+    {
+      "case": "old-version",
+      "result": "Delivery claimed. Not yet accepted.",
+      "block": 707535
+    },
+    {
+      "case": "wrong-digest",
+      "result": "Delivery claimed. Not yet accepted.",
+      "block": 707535
+    },
+    {
+      "case": "conflict",
+      "result": "Conflicting statements. Review required.",
+      "block": 707535
+    },
+    {
+      "case": "proposal-branch",
+      "result": "Conflicting statements. Review required.",
+      "block": 707535
+    }
+  ]
+}

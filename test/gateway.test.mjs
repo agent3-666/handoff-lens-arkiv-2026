@@ -1,6 +1,9 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { createReadGateway, validateRead } from "../server/gateway.mjs";
+import { createPublicClient } from "@arkiv-network/sdk";
+import { tiramisu } from "@arkiv-network/sdk/chains";
+import { http } from "viem";
 const task = {
   jsonrpc: "2.0",
   id: 1,
@@ -15,6 +18,24 @@ test("gateway accepts only project-scoped bounded reads", () => {
   assert.ok(
     validateRead({ jsonrpc: "2.0", id: 1, method: "eth_chainId", params: [] }),
   );
+});
+test("real SDK metadata transport accepts omitted params, rejects nonempty params", async () => {
+  const seen = [];
+  const server = createReadGateway({
+    origins: ["http://localhost"],
+    forward: async (body) => {
+      seen.push(body);
+      return {status:200,body:JSON.stringify({jsonrpc:"2.0",id:body.id,result:"0x7614d1"})};
+    },
+  });
+  await new Promise(r=>server.listen(0,"127.0.0.1",r));
+  try {
+    const c=createPublicClient({chain:tiramisu,transport:http(`http://127.0.0.1:${server.address().port}/rpc`,{retryCount:0})});
+    assert.equal(await c.getChainId(),7738577);
+    assert.equal(seen.length,1);
+    assert.equal(seen[0].params,undefined);
+    assert.equal(validateRead({jsonrpc:"2.0",id:1,method:"eth_chainId",params:[1]}),false);
+  } finally { await new Promise(r=>server.close(r)); }
 });
 test("gateway rejects writes, batches and unscoped queries", () => {
   assert.equal(
