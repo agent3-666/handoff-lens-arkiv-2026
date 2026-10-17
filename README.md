@@ -16,7 +16,7 @@ npm test
 npm run dev
 ```
 
-Open `http://127.0.0.1:5188`. `npm run build` creates `dist/`, deployable as static files at a root or subpath. The default public RPC query path needs no account or team backend, but sustained anonymous browser reads encountered an actual Arkiv cost limit. A secret-protected read gateway is prepared, not yet deployed; see `server/README.md`. A wallet is needed only to create synthetic test records.
+Open `http://127.0.0.1:5188`. `npm run build` creates `dist/`, deployable as static files at a root or subpath. The default public RPC query path needs no account or team backend, but sustained anonymous browser reads encountered an actual Arkiv cost limit. A later direct browser recheck succeeded at block 707786; this does not guarantee quota availability. A secret-protected optional read gateway was locally verified with all seven real scenarios, but is not publicly deployed; see `server/README.md`. The public static build uses direct public RPC and contains no access key. A wallet is needed only to create synthetic test records.
 
 - **Live Arkiv query:** enter a trusted root proposal entity key. Every page is queried directly from Tiramisu at one block. A missing root or failed page withholds the decision. No fixture fallback.
 - **Synthetic safety lab:** try the accepted, one-sided, fake-buyer, old-version, wrong-digest, conflicting-delivery and expiry examples. These local examples are explicitly separate from chain state. They run the same verifier, and do not represent transactions, users or adoption.
@@ -61,7 +61,7 @@ Data contract and exact queries: [arkiv/schema.md](arkiv/schema.md). Integration
 
 All project core logic and Arkiv integration were written from scratch on 18 October 2026 during this event. No prior Agent3 application code, payment module, customer dataset or prior hackathon code was imported. There is no pre-event baseline SHA for reused first-party code because none was reused. The first repository commit records the initial event-period implementation.
 
-Third-party dependencies: official Arkiv SDK, viem, Vite and their transitive dependencies under their own licences. Google Fonts DM Sans / Space Grotesk are optional cosmetic resources, not required for verifier operation. AI coding assistance: OpenAI Codex (the interface did not expose a verified exact model ID, so no model revision is asserted).
+Third-party dependencies: official Arkiv SDK, viem, Vite and their transitive dependencies under their own licences. The app's optional Google Fonts DM Sans / Space Grotesk are cosmetic resources, not required for verifier operation. The separately produced demo video uses self-hosted Space Grotesk and JetBrains Mono under OFL. AI coding assistance: OpenAI Codex (the interface did not expose a verified exact model ID, so no model revision is asserted).
 
 ## Licence
 
