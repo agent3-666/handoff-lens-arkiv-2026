@@ -6,6 +6,10 @@ A buyer can be misled by a completion badge that only reflects an executor's sta
 
 Primary track: **Security**. Secondary fit: **Censorship Resistance** and **Open Source**. This is an internal synthetic test application, with no claimed external adoption.
 
+[Live app](https://agent3-666.github.io/handoff-lens-arkiv-2026/) · [100-second demo](https://agent3-666.github.io/handoff-lens-arkiv-2026/demo.html)
+
+The public deployment completed all seven real scenarios without login, a project credential or our gateway at blocks 707869–707872. With the local gateway stopped, a separate two-page direct query completed at block 707883. These are observed checks, not a guarantee of future public-RPC quota availability. Public observations and creation timing are in `public/evidence/`.
+
 ## Run
 
 Requires Node 20.19+, 22.13+, or 24+.

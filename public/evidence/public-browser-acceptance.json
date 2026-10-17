@@ -1,0 +1,42 @@
+{
+  "observedAt": "2026-10-17T19:31:45.183Z",
+  "app": "https://agent3-666.github.io/handoff-lens-arkiv-2026/",
+  "transport": "public official RPC direct, no account or project key or private gateway",
+  "checks": [
+    {
+      "case": "accepted",
+      "result": "Buyer accepted this delivery",
+      "block": 707869
+    },
+    {
+      "case": "one-sided",
+      "result": "Delivery claimed. Not yet accepted.",
+      "block": 707869
+    },
+    {
+      "case": "fake-buyer",
+      "result": "Delivery claimed. Not yet accepted.",
+      "block": 707869
+    },
+    {
+      "case": "old-version",
+      "result": "Delivery claimed. Not yet accepted.",
+      "block": 707869
+    },
+    {
+      "case": "wrong-digest",
+      "result": "Delivery claimed. Not yet accepted.",
+      "block": 707869
+    },
+    {
+      "case": "conflict",
+      "result": "Conflicting statements. Review required.",
+      "block": 707872
+    },
+    {
+      "case": "proposal-branch",
+      "result": "Conflicting statements. Review required.",
+      "block": 707872
+    }
+  ]
+}
